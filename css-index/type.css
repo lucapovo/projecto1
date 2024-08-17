@@ -1,0 +1,37 @@
+/*LIGHT font 300*/
+@font-face {
+    font-family: 'Roberto light';
+    src: url('../progetto/tipo/Roboto-Light-webfont.eot');
+    src: url('../progetto/tipo/Roboto-Light-webfont.eot?#iefix') format('embedded-opetype'),
+         url('../progetto/tipo/Roboto-Light-webfont.svg') format('svg'),
+         url('../progetto/tipo/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../progetto/tipo/Roboto-Light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*REGULAR font 400*/
+@font-face {
+    font-family: 'Roboto regular';
+    src: url('../progetto/tipo/Roboto-Regular-webfont.eot');
+    src: url('../progetto/tipo/Roboto-Regular-webfont.eot?#iefix') format('embedded-opetype'),
+         url('../progetto/tipo/Roboto-Regular-webfont.svg') format('svg'),
+         url('../progetto/tipo/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../progetto/tipo/Roboto-Medium-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*MEDIUM font 500*/
+@font-face {
+    font-family: 'Roboto medium';
+    src: url('../progetto/tipo/Roboto-Medium-webfont.eot');
+    src: url('../progetto/tipo/Roboto-Medium-webfont.eot?#iefix') format('embedded-opetype'),
+         url('../progetto/tipo/Roboto-Medium-webfont.svg') format('svg'),
+         url('../progetto/tipo/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../progetto/tipo/Roboto-Regular-webfont.woff') format('woff');
+    font-weight: 500;
+}
+
+

@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px solid black;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto-Light-webfont.eot");
+    src: url("../fonts/Roboto-Light-webfont.svg") format("svg"),
+         url("../fonts/Roboto-Light-webfont.ttf") format("ttf"),
+         url("../fonts/Roboto-Light-webfont.woff") format("woff"),
+         url("../fonts/Roboto-Medium-webfont.eot") format("eot"),
+         url("../fonts/Roboto-Medium-webfont.svg") format("svg"),
+         url("../fonts/Roboto-Medium-webfont.ttf") format("ttf"),
+         url("../fonts/Roboto-Medium-webfont.woff") format("woff"),
+         url("../fonts/Roboto-Regular-webfont.eot") format("eot"),
+         url("../fonts/Roboto-Regular-webfont.svg") format("svg"),
+         url("../fonts/Roboto-Regular-webfont.ttf") format("ttf"),
+         url("../fonts/Roboto-Regular-webfont.woff") format("woff"),
+
+}
+
+@font-face {
+    font-size: "Oswald";
+    src: url("../fonts/Oswald-Light.ttf") format("ttf");
+}
+
+div {
+    font-family: "roboto", Arial, Helvetica, sans-serif; 
+}
+
+.logo {
+    width: 234px;
+    height: 130px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+
+nav {
+    display: flex;
+    gap: 63px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+a:visited{
+    color: chocolate;
+}
+
+a:hover{
+    color:darkred
+}
+
+.menu li {
+    display: flex;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    width: 370px;
+    text-decoration: blue;
+    justify-content: flex-end;
+}
+
+h4 {
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    margin-left: 133px;
+    margin-bottom: 33px;
+}
+
+h1 {
+    margin-bottom: 33px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 33px;
+    font-family: Roboto;    
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+
+h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 70px;
+    border: 1px solid black;
+    
+} 
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+textarea {
+    width: 666px;
+    height: 194px;
+    border: 1px solid black;
+}
+
+.contactar {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: #069697;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25); 
+    width: 175px;
+    height: 36px;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    color:#FFF;
+    list-style-type:none;
+}
+
+.menubotton {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding: 21px 10px;
+    background-color: #069697;
+    width: 132px;
+    height: 26px;
+}
+
+.empresas {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+
+.empresa{
+    border-radius: 50%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+}
+
+.celebraciones {
+    border-radius: 50%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.escuela {
+    border-radius: 50%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menubotton {
+    padding: 10px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: #069697;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 102px;
+    height: 36px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 80px; 
+ 
+}
+
+.titulo {
+    margin-top: 54px;
+    margin-bottom: 91px;
+}
+
+
+input[type="text"], input[type="url"],  input[type="email"]{
+    width: 666px;
+    background-color: rgba(148, 148, 148, 0.10);
+    height: 36px;
+    align-items: center;
+    border:1px solid black;
+}
+
+.inferior {
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+    height: 205px;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    
+}
+
+.direccion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+
+.brands{
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.icono {
+    width: 45px;
+    height: 45px;
+}
+
+
+
+/*HOME*/
+
+.valores {
+    display: flex;
+    flex-direction: column;
+}
+.cabecera {
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 33px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 33px;
+    font-family: Roboto;    
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+
+
+.apartado {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.cava {
+    width: 585px;
+    height: 340px;
+}
+
+.cocina {
+    width: 585px;
+    height: 340px;
+    order: -1;
+}
+
+.camareros {
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px; 
+}
+
+.productos {
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}

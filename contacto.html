@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="css-contacto/reset.css" rel="stylesheet">
+    <link href="css-contacto/font.css" rel="stylesheet">
+    <link href="css-contacto/estil.css" rel="stylesheet">
+    <link href="css-contacto/media.css" rel="stylesheet">
+</head>
+<body>
+    <header class="top">
+        <picture>
+            <img class="logo" src="img/FC-logo-horizontal.svg" alt="Fartera Catering">
+        </picture>
+
+    <nav>
+
+            <div><a href="#" tittle="Enlace a INICI">INICI</a></div>
+            <div><a href="#" tittle="Enlace a HISTORIA">HISTORIA</a></div>
+            <div><a href="#" tittle="Enlace a SERVICIOS">SERVICIOS</a></div>
+            <div><a href="#" tittle="Enlace a CONTACTO">CONTACTO</a></div>
+ 
+    </nav>
+</header>
+
+<main>
+    <h4>inici > contacte</h4>
+    <h1>Contacto</h1>
+    <h2>Solicita presupuesto</h2>
+
+    <form method="post" class="formulario" action="formulario.php" enctype="application/x-www-form-urlencoded" name="" id=""> 
+        <div class="campo">
+        <div><label for="name">Nombre</label></div>
+        <div><input id="name" type="text" placeholder="Escribe el nombre" required tabindex="1"></input></div>
+        </div>
+        <div class="campo">
+        <div><label for="trabajo">Empresa</label></div>
+        <div><input id="trabajo" type="text" placeholder="Nombre de tu empresa" required tabindex="2"></input></div>
+        </div>
+        <div class="campo">
+        <div><label for="direcion">Página web</label></div>
+        <div><input id="direcion" type="url" placeholder="url" required tabindex="3"></input></div> 
+        </div>
+        <div class="campo">
+        <div><label for="asistentes">Numero de asistentes aproximado (minimo20) (maximo200)</label></div>
+        <div><input id="asistentes" type="text" placeholder="20" required tabindex="4"></input></div>
+        </div>
+
+        <div class="campo">
+        <div><label for="correo">E-mail de contacto</label></div>
+        <div><input id="correo" type="email" placeholder="email" pattern="[A-Za-z0-9] {0,9}" required tabindex="5"></input></div> 
+        </div>
+
+        <div class="campo5">
+        <div><label for="sms">Mensaje</label></div>
+        <textarea id="comentar" placeholder="Pasaporte" required tabindex="4">
+        </textarea>
+        </div>
+        
+        <div>
+        <input type="checkbox" id="cbox2" value="second_checkbox"/></input>
+        <label for="cbox2">He leído y acepto la política de privacidad</label>
+        </div>
+
+        <li class="contactar"><button type="submit">contactar</button>
+        </li>
+</form>
+
+</main>
+    
+    
+            <h1 class="titulo">Descubre nuestros menús</h1>
+
+            <section class="menu">        
+            <article class="card">
+            <header>
+                <picture>
+                    <source srcset="imgs/foto-empresas_400.jpg,
+                                    imgs/foto-empresas_800@2x.jpg 2x,
+                                    imgs/foto-empresas_1280@3x.jpg 3x">
+                                
+                    <img class="empresa" src="imgs/empresas_1280@3x.jpg" alt="menu empresa">
+                        </picture>
+                        <h2 class="Empresas">Empresas</h2>
+                            </header>
+
+             <footer class="botones">
+            <li class="menubotton"><button type="submit"><a>Ver menu</a></button>
+            </footer>
+            </article>
+
+            <article class="card">
+                
+            <header>
+                <picture>
+                    <source srcset="imgs/foto-celeb_400.jpg,
+                                    imgs/foto-celeb_800@2x.jpg 2x,
+                                    imgs/foto-celeb_1280@3x.jpg 3x">
+
+                    <img class="celebraciones" src="imgs/foto-celeb_1280@3x.jpg" alt="menu celebraciones">
+                        </picture>
+                        <h2 class="Celebraciones">Celebraciones</h2>
+                            </header>
+    
+                <footer class="botones">
+                <li class="menubotton"><button type="submit"><a>Ver menu</a></button>
+                </footer>
+                </article>
+
+                <article class="card">
+                
+                    <header>
+                        <picture>
+                        <source srcset="imgs/foto-escuelas_400.jpg,
+                                        imgs/foto-escuelas_800@2x.jpg 2x,
+                                        imgs/foto-escuelas_1280@3x.jpg 3x">
+                                        
+                    <img class="escuela" src="imgs/foto-escuelas_1280@3x.jpg" alt="menu escuelas">
+
+                        </picture>
+                        <h2 class="escuelas">Escuelas</h2>
+                        </header>
+            
+                        <footer class="botones">
+                        <li class="menubotton"><button type="submit"><a>Ver menu</a></button>
+                        </footer>
+                    </article>
+            </section>
+
+            <footer class="inferior">
+
+                <div class="direccion">
+                <p>© 2023 - Fartera Catering.</p>
+                <p>C/ Bailèn 126, 08009 Barcelona.</p>
+                <p>Telf.: +34 617 10 91 09</p>
+
+                <div class="brands">
+                <img class="icono" src="imgs/facebook.svg" alt="facebook">
+                <img class="icono" src="imgs/instagram.svg" alt="instagram">
+                <img class="icono" src="imgs/twitter.svg" alt="twitter">
+                </div>
+                </div>                
+                
+                <div class="copyright">
+                <p>Aviso legal</p>
+                <p>Política de privacidad</p>
+                <p>Política de cookies</p>
+                </div>
+                
+        
+            </footer>
+
+    </body>
+</html>

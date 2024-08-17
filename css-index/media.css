@@ -1,0 +1,124 @@
+
+@media screen and (min-width:320px) and (max-width: 639px){
+
+
+.solecita{
+    text-align: center;
+}
+
+.ordenador{
+    display: none;
+}
+
+.logomovil{
+    display: block;
+    height: 62px;
+    width: 55px;
+}
+
+.movil{
+    display: block;
+}
+
+.primera{
+    display: none;
+}
+
+.uno{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.hamburger{
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    width: 40px;
+    height: 35px;
+}
+
+.breadcrumb{
+    display: none;
+}
+
+legend{
+    width: 197px;
+}
+
+form{
+    width: 280px;
+    gap: 16px;
+    padding-top: 0;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+}
+
+.unidos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.unidos label{
+    width: 100%;
+    flex-direction: row;
+}
+
+button{
+    width: 255px;
+    margin-top: 16px;
+
+}
+
+.html{
+    font-size: 12px;
+    display: flex;
+    gap: 0;
+}
+
+.descubre{
+    margin-top: 33px;
+    margin-bottom: 50px;
+    width: 255px;
+}
+
+.datos{
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+footer{
+    padding: 45px 15px 22px 15px;
+}
+
+.direction ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.grupo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    
+}
+
+.aviso ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+}

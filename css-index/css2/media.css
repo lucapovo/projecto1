@@ -1,0 +1,147 @@
+
+@media screen and (min-width:320px) and (max-width: 639px){
+
+    header{
+        height: 97px;
+        width: 100%;
+        padding: 36px;
+    }
+
+
+    .solecita{
+        text-align: center;
+    }
+    
+    .ordenador{
+        display: none;
+    }
+    
+    .logomovil{
+        display: block;
+        height: 62px;
+        width: 55px;
+    }
+    
+    .movil{
+        display: block;
+    }
+    
+    .primera{
+        display: none;
+        flex-direction: column;
+    }
+    
+    .uno{
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    
+    .hamburger{
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+        width: 40px;
+        height: 35px;
+    }
+
+    .scorrere img{
+        display: none;
+        height: 0;
+        width: 0;
+
+    }
+
+    h2{
+     text-align: center;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        margin-top: 17px;
+        margin-right: 0;
+        margin-left: 0;
+        gap: 16.5px;
+    }
+
+
+    .reverse{
+        margin-top: 17px;
+        gap: 16.5px;
+    }
+
+    .arti{
+        width: 319px;
+        height: 186px;
+    }
+
+    .profe{
+        margin-top: 17px;
+        align-items: center;
+        gap: 17px;
+    }
+
+    .profe-movil{
+        margin-top: 17px;
+        align-items: center;
+        display: block;
+    }
+
+    h3{
+        font-size: 36px;
+        padding: 22px;
+        display: flex;
+        justify-content: center;
+     }
+
+     p{
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 255px;
+        height: 88px;
+        }
+
+        button{
+            width: 280px;
+        }
+
+        .reverse{
+        display:flex;
+        flex-direction: column-reverse;
+        }
+
+        footer{
+            margin-top: 33px;
+            
+        }
+
+        footer{
+            padding: 45px 15px 22px 15px;
+        }
+        
+        .direction ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+        }
+        
+        .grupo{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+            
+        }
+        
+        .aviso ul{
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+        }
+        
+
+}
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1/reset.css">
+    <link rel="stylesheet" href="css1/type.css">
+    <link rel="stylesheet" href="css1/estilos.css">
+    <link rel="stylesheet" href="css1/media.css">
+    <title>Fartera Catering</title>
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="ordenador" src="img/Logo.svg" alt="logo Fartera Catering">
+            <img class="logomovil" src="img/FC-logo-isotipo.svg" alt="logo Fartera Cateribg">
+        </div>
+    <nav class="primera">
+        <ul>
+            <li>
+                <a href="#">INICIO</a>
+            <li>
+                <a href="#">HISTORIA</a>
+            </li>
+            <li>
+                <a href="#">SERVICIOS</a>
+            </li>
+            <li>
+                <a href="#">CONTACTO</a>
+            </li>
+        </ul>
+   </nav>
+    <div class="uno" >
+        <img class="hamburger" src="img/bars-solid.svg" alt="menu hamburguesa">
+    </div>
+
+</header>
+    <nav class="breadcrumb">
+        <ol>
+            <li>
+                <a href="index.html">INICIO</a>
+            </li>
+            <li>
+                CONTACTO
+            </li>
+        </ol>
+    </nav>
+    
+    <section class="formulario">
+        <h2>Contacto</h2>
+        <form id="contact-form" name="contact-form" enctype="application/x-www-form-urlencoded"> 
+            <fieldset>
+                <legend class="solecita">Solicita presupuesto</legend>
+                <ul>
+                    <li>
+                        <label for="nom">Nombre</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </li>
+                    <li>
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" required>
+                    </li>
+                    <li class="movil">
+                        <label for="web">Web</label>
+                        <input type="url" id="web" name="web" required>
+                    </li>
+                    <li>
+                        <label for="numero">Numero assistentes aproximado<span>(minimo 20 - maximo 200)</span></label>
+                        <input type="number" id="numero" name="numero" min="20" max="200" required>
+                    </li>
+                    <li class="movil">
+                        <label for="correo">E-mail de contacto</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </li>   
+                        <li>
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" minlength="20" maxlength="200" required></textarea>
+                        </li>
+                    </ul>
+            </fieldset>
+            <fieldset>
+                <ul>
+                    <li class="unidos">
+                     <input type="checkbox" id="privacidad" required>
+                     <label class="html" for="privacidad">He leydo y accepto la<span><a href="index.html"></a> politica de privacidad</span></label>
+                    </li>
+                    <li class="box">
+                        <button type="submit">CONTACTAR</button>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </section>
+    <aside>
+    <h2 class="descubre">Descubre nostros menu</h2>
+    <div class="menu">
+        <article>
+            <picture>
+        <source srcset="img/empresa@1x.jpg 1x" media="(min-width:320px)">
+        <source srcset="img/empresa@2x.jpg 2x" media="(min-width:640px)">     
+        <source srcset="img/empresa@3x.jpg 3x" media="(min-width:1280px)">
+        <img src="img/empresa@3x.jpg" alt="foto descrictiva">
+            </picture>
+            <h3>Empresas</h3>
+            <a class="ver" href="#">Ver menu</a>
+        </article>
+        <article>
+            <picture>
+                <source srcset="img/celebraciones@1x.jpg 1x" media="(min-width:320px)">
+                <source srcset="img/celebraciones@2x.jpg 2x" media="(min-width:640px)">
+                <source srcset="img/Celebraciones@3x.jpg 3x" media="(min-width:1280px)">
+        <img src="img/celebraciones@3x.jpg" alt="foto descrictiva">
+            </picture>
+            <h3>Celebraciones</h3>
+            <a class="ver" href="#">Ver menu</a> 
+        </article>
+        <article>
+            <picture>
+                <source srcset="img/escuela@1x.jpg 1x" media="(min-width:320px)">
+                <source srcset="img/escuela@2x.jpg 2x" media="(min-width:640px)">
+                <source srcset="img/escuela@3x.jpg 3x" media="(min-width:1280px)">
+        <img src="img/escuela@3x.jpg" alt="foto descrictiva">    
+            </picture>
+            <h3>Escuelas</h3>
+            <a class="ver" href="#">Ver menu</a>
+        </article>
+    </div>
+</aside>
+    <footer>
+        <section class="grupo">
+            <address class="direction">
+                <ul>
+                <li>© 2023 - Fartera Catering.</li>
+                <li>C/ Bailèn 126, 08009 Barcelona.</li>
+                <li>Telf.: +34 617 10 91 09</li>
+                </ul>
+            </address>
+            <div class="final">
+                <a href="https://twitter.com/FarteraCatering" target="_blank"><img src="img/twitter-square-brands.svg" alt="twitter"></a>
+                <a href="https://instagram.com/FarteraCatering" target="_blank"><img src="img/instagram-square-brands.svg" alt="instagram"></a>
+                <a href="https://facebook.com/FarteraCatering" target="_blank"><img src="img/facebook-square-brands.svg" alt="facebook"></a>
+            </div>
+        </section>
+            <div class="aviso">
+                <ul>
+                    <li><a class="aviso" href="#" target="_blank">Aviso legal</a></li>
+                    <li><a href="www.farteracatering.com/politica-de-privacidad" target="_blank">Política de privacidad</a></li>
+                    <li><a class="aviso" href="#" target="_blank">Política de cookies</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>
